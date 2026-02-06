@@ -1,85 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset="utf-8">
-    <title>CashYard — Parceira iGaming</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>CashYard — Telegram</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f2f6fc;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
 
-    <link rel="icon" type="image/svg+xml" href="images/website_icon.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="alternate icon" href="images/favicon.ico" type="image/x-icon">
+    .banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
 
-    <link href="css/font-roboto.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/telegram.css" rel="stylesheet" media="screen">
+    .telegram-logo {
+      width: 120px;
+      height: 120px;
+      background-color: #37AEE2;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+
+    .telegram-logo svg {
+      width: 60px;
+      height: 60px;
+      fill: #fff;
+    }
+
+    .title {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .btn-telegram {
+      background-color: #37AEE2;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 600;
+      padding: 18px 50px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      animation: pulse 2s infinite;
+      transition: transform 0.2s;
+    }
+
+    .btn-telegram:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(55,174,226,0.7); }
+      50% { box-shadow: 0 0 20px 10px rgba(55,174,226,0.4); }
+    }
+  </style>
 </head>
-<body class="no_transition">
-  <div class="tgme_background_wrap">
-    <canvas id="tgme_background" class="tgme_background default" width="50" height="50" data-colors="dbddbb,6ba587,d5d88d,88b884"></canvas>
-    <div class="tgme_background_pattern default"></div>
-  </div>
-
-  <div class="tgme_page_wrap">
-    <div class="tgme_head_wrap">
-      <div class="tgme_head">
-        <a href="https://telegram.org/" class="tgme_head_brand">
-          <svg class="tgme_logo" height="34" viewBox="0 0 133 34" width="133" xmlns="http://www.w3.org/2000/svg">
-            <!-- SVG content -->
-          </svg>
-        </a>
-        <a class="tgme_head_right_btn" href="https://telegram.org/dl?tme=f6b016111960881f7b_1213700649642388641">Download</a>
-      </div>
+<body>
+  <div class="banner">
+    <div class="telegram-logo">
+      <!-- Telegram Paper Plane SVG -->
+      <svg viewBox="0 0 240 240">
+        <path d="M120 0C53.73 0 0 53.73 0 120s53.73 120 120 120 120-53.73 120-120S186.27 0 120 0zm54.89 85.18l-16.22 76.73c-1.23 5.83-4.48 7.28-9.09 4.52l-25.1-18.53-12.1 11.64c-1.33 1.33-2.45 2.45-5.02 2.45l1.8-25.5 46.31-41.9c2.01-1.8-.44-2.82-3.1-1.02l-57.21 36.01-24.59-7.69c-5.31-1.66-5.4-5.31 1.11-7.85l95.18-36.63c4.42-1.66 8.27 1.02 6.51 7.2z"/>
+      </svg>
     </div>
 
-    <div class="tgme_body_wrap">
-      <div class="tgme_page">
-        <div class="tgme_page_photo">
-          <a href="tg://join?invite=j9tJcezI9jBlYzEy">
-            <img class="tgme_page_photo_image" src="images/logo.png">
-          </a>
-        </div>
+    <div class="title">Ganhe até 500 reais realizando ações simples!</div>
+    <div class="subtitle">Clique abaixo e entre no nosso canal exclusivo no Telegram 🎯</div>
 
-        <div class="tgme_page_title">
-          <span dir="auto">Ganhe até 500 reais realizando ações simples no Telegram 🩵</span>
-        </div>
-
-        <div class="tgme_page_extra">
-          <br>
-          Entre no canal e descubra dicas, estratégias e oportunidades 🎯
-          <br>
-          👇 Canal exclusivo no Telegram 👇
-        </div>
-
-        <div class="tgme_page_action">
-          <a class="tgme_action_button_new shine" href="tg://join?invite=j9tJcezI9jBlYzEy">Entrar no Canal</a>
-        </div>
-      </div>
-    </div>
+    <a href="tg://join?invite=j9tJcezI9jBlYzEy" class="btn-telegram">Entrar no Telegram</a>
   </div>
-
-  <script src="js/tgwallpaper.min.js"></script>
-  <script type="text/javascript">
-    var tme_bg = document.getElementById('tgme_background');
-    if (tme_bg) {
-      TWallpaper.init(tme_bg);
-      TWallpaper.animate(true);
-      window.onfocus = function(){ TWallpaper.update(); };
-    }
-    document.body.classList.remove('no_transition');
-
-    function toggleTheme(dark) {
-      document.documentElement.classList.toggle('theme_dark', dark);
-      window.Telegram && Telegram.setWidgetOptions({dark: dark});
-    }
-    if (window.matchMedia) {
-      var darkMedia = window.matchMedia('(prefers-color-scheme: dark)');
-      toggleTheme(darkMedia.matches);
-      darkMedia.addListener(function(e) {
-        toggleTheme(e.matches);
-      });
-    }
-  </script>
 </body>
 </html>
