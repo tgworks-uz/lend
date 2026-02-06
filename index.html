@@ -1,98 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>CashYard — Telegram</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: #f2f6fc;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ganhe no Telegram</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f7fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
 
-    .banner {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 50px;
-    }
+  .banner {
+    background: #37aee2;
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 20px;
+    display: inline-block;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
 
-    .telegram-logo {
-      width: 120px;
-      height: 120px;
-      background-color: #37AEE2;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      margin-bottom: 20px;
-    }
+  .telegram-logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #37aee2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
 
-    .telegram-logo svg {
-      width: 60px;
-      height: 60px;
-      fill: #fff;
-    }
+  .telegram-logo svg {
+    width: 45px;
+    height: 45px;
+  }
 
-    .title {
-      font-size: 1.5rem;
-      font-weight: 500;
-      margin-bottom: 20px;
-      color: #111;
-    }
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
 
-    .subtitle {
-      font-size: 1rem;
-      color: #555;
-      margin-bottom: 40px;
-    }
+  p {
+    font-size: 16px;
+    margin: 10px 0 30px;
+  }
 
-    .btn-telegram {
-      background-color: #37AEE2;
-      color: #fff;
-      font-size: 1.2rem;
-      font-weight: 600;
-      padding: 18px 50px;
-      border: none;
-      border-radius: 30px;
-      cursor: pointer;
-      text-decoration: none;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      animation: pulse 2s infinite;
-      transition: transform 0.2s;
-    }
+  .join-btn {
+    background: #fff;
+    color: #37aee2;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    display: inline-block;
+    animation: pulse 1.5s infinite;
+    transition: background 0.3s, color 0.3s;
+  }
 
-    .btn-telegram:hover {
-      transform: scale(1.05);
-    }
+  .join-btn:hover {
+    background: #e6f4fb;
+  }
 
-    @keyframes pulse {
-      0%, 100% { box-shadow: 0 0 0 0 rgba(55,174,226,0.7); }
-      50% { box-shadow: 0 0 20px 10px rgba(55,174,226,0.4); }
-    }
-  </style>
+  @keyframes pulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 rgba(55,174,226,0.5);}
+    50% { transform: scale(1.05); box-shadow: 0 0 20px rgba(55,174,226,0.6);}
+    100% { transform: scale(1); box-shadow: 0 0 0 rgba(55,174,226,0.5);}
+  }
+</style>
 </head>
 <body>
-  <div class="banner">
-    <div class="telegram-logo">
-      <!-- Telegram Paper Plane SVG -->
-      <svg viewBox="0 0 240 240">
-        <path d="M120 0C53.73 0 0 53.73 0 120s53.73 120 120 120 120-53.73 120-120S186.27 0 120 0zm54.89 85.18l-16.22 76.73c-1.23 5.83-4.48 7.28-9.09 4.52l-25.1-18.53-12.1 11.64c-1.33 1.33-2.45 2.45-5.02 2.45l1.8-25.5 46.31-41.9c2.01-1.8-.44-2.82-3.1-1.02l-57.21 36.01-24.59-7.69c-5.31-1.66-5.4-5.31 1.11-7.85l95.18-36.63c4.42-1.66 8.27 1.02 6.51 7.2z"/>
-      </svg>
-    </div>
 
-    <div class="title">Ganhe até 500 reais realizando ações simples!</div>
-    <div class="subtitle">Clique abaixo e entre no nosso canal exclusivo no Telegram 🎯</div>
-
-    <a href="tg://join?invite=j9tJcezI9jBlYzEy" class="btn-telegram">Entrar no Telegram</a>
+<div class="banner">
+  <div class="telegram-logo">
+    <!-- Белый самолетик Telegram -->
+    <svg viewBox="0 0 240 240">
+      <circle cx="120" cy="120" r="120" fill="#37aee2"/>
+      <polygon points="60,120 180,100 100,140" fill="#fff"/>
+    </svg>
   </div>
+  <h1>Ganhe de 500 por ações simples no Telegram</h1>
+  <p>Entre no nosso canal e receba dicas, estratégias e ofertas exclusivas 🎯</p>
+  <a class="join-btn" href="https://t.me/+j9tJcezI9jBlYzEy" target="_blank">Ir para o Telegram</a>
+</div>
+
 </body>
 </html>
